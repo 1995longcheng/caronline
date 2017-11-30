@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:orientation="horizontal" >
+    <!--android:layout_height="300dp"这里可以修改下标的高低  -->
+    <LinearLayout 
+        android:id="@+id/id_tab_tonghuajilu"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+         <!-- android:clickable="false" 是为了
+         防止ImageButton截取了触摸事件 ，
+         这里事件要给它的上一级linearlayout-->
+
+        <Button
+            android:id="@+id/id_tab_tonghuajilu_img"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:background="@drawable/tonghuajilu"
+            android:clickable="false"
+            />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab_user"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <Button 
+            android:id="@+id/id_tab_user_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lianxiren"
+            android:clickable="false"
+           />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab_bohao"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <Button 
+            android:id="@+id/id_tab_number_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bohao"
+            android:clickable="false"
+            />
+         <!--  android:clickable="false"为了保证布局里面的imagebutton不被点到 -->
+   
+    </LinearLayout>
+    
+
+</LinearLayout>

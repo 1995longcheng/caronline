@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 用来显示tab02联系人列表的视图 -->
+    <TextView 
+        android:id="@+id/contacts_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+    <TextView 
+        android:id="@+id/contacts_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"/>
+    <TextView 
+        android:id="@+id/pb_item_LetterTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"/>
+    
+
+</LinearLayout>

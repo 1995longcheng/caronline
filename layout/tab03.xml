@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="305dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:hint="@string/select_number"
+                android:textColor="#FFFFFF"
+                android:singleLine="true"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/but15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_delete"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/but1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_1_selector"
+                />
+
+            <ImageButton
+                android:id="@+id/but2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_2_selector"
+                />
+
+            <ImageButton
+                android:id="@+id/but3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_3_selector"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/but4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_4_selector"
+                />
+
+            <ImageButton
+                android:id="@+id/but5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_5_selector"
+                />
+
+            <ImageButton
+                android:id="@+id/but6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_6_selector"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/but7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_7_selector"
+               />
+
+            <ImageButton
+                android:id="@+id/but8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_8_selector"
+                />
+
+            <ImageButton
+                android:id="@+id/but9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_9_selector"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/but10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_xing_selector"
+                />
+
+            <ImageButton
+                android:id="@+id/but11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_number_0_selector"
+               />
+
+            <ImageButton
+                android:id="@+id/but12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_jing_selector"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/but13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/me_call_selector"
+                 />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</FrameLayout>

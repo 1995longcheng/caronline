@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+  <EditText
+        android:id="@+id/pb_search_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sear"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/pb_listvew"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#FFFFFF"
+            android:dividerHeight="2dp" />
+
+        <TextView
+            android:id="@+id/pb_letter_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/pb_nocontacts_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:visibility="gone" />
+
+        <com.neusoft.phone.utils.AlphabetScrollBar
+            android:id="@+id/alphabetscrollbar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" />
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
